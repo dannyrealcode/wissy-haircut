@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wissy Haircut</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h2>WISSY <span>HAIRCUT</span></h2>
+
+    <button
+    class="menu-toggle"
+    id="menuToggle"
+    type="button"
+    aria-label="Open navigation menu"
+    aria-expanded="false"
+    aria-controls="mainNavigation"
+>
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+<nav id="mainNavigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="index.html#booking" class="nav-booking">Book Now</a>
+</nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+
+
+<div class="hero-content">
+    <p class="welcome">WELCOME TO WISSY HAIRCUT</p>
+
+    <h1>
+        LOOK SHARP.<br>
+        <span>FEEL CONFIDENT.</span>
+    </h1>
+
+    <p class="hero-description">
+        Professional haircuts and grooming
+        to help you look your best.
+    </p>
+
+    <a href="#booking" class="button">Book Your Haircut</a>
+</div>
+
+<div class="hero-image">
+    <img
+        src="images/barber-hero.png"
+        alt="Barber giving a customer a stylish fade haircut"
+        fetchpriority="high"
+    >
+</div>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about-section">
+    <div class="about-content">
+        <p class="section-label">ABOUT WISSY HAIRCUT</p>
+
+        <h2>More Than a Haircut. It's Your Style.</h2>
+
+        <p>
+            At Wissy Haircut, we believe every customer deserves
+            a clean, stylish haircut and a great grooming experience.
+            Our goal is to help you look sharp, feel confident,
+            and leave looking your best.
+        </p>
+
+        <a href="#booking" class="button">Book Your Haircut</a>
+    </div>  
+</section>
+
+<!-- Haircut Gallery -->
+<section id="gallery" class="homepage-gallery">
+    <h2>Our Haircut Gallery</h2>
+
+    <p class="gallery-intro">
+        Explore Nigerian favourites and international haircut trends.
+        Find your next style at Wissy Haircut.
+    </p>
+
+    <!-- Nigerian Hairstyles Slider -->
+    <div class="gallery-category">
+        <h3>Nigerian Hairstyles 🇳🇬</h3>
+
+        <div class="haircut-slider" data-slider>
+            <div class="slider-track">
+
+                <article class="slider-slide">
+                    <img
+                        src="images/nigerian-low-cut.jpg"
+                        alt="Classic low cut hairstyle"
+                    >
+                    <div class="slide-content">
+                        <h4>Classic Low Cut</h4>
+                        <p>A clean, timeless everyday haircut.</p>
+                        <a
+                            href="https://wa.me/2349015130293?text=Hello%20Wissy%20Haircut%2C%20I%20am%20interested%20in%20the%20Classic%20Low%20Cut"
+                            class="whatsapp-button"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >Ask About This Style</a>
+                    </div>
+                </article>
+
+                <article class="slider-slide">
+                    <img
+                        src="images/nigerian-low-fade.jpg"
+                        alt="Low fade haircut with a sharp hairline"
+                    >
+                    <div class="slide-content">
+                        <h4>Low Fade</h4>
+                        <p>A fresh fade with a clean finish.</p>
+                        <a
+                            href="https://wa.me/2349015130293?text=Hello%20Wissy%20Haircut%2C%20I%20am%20interested%20in%20the%20Low%20Fade"
+                            class="whatsapp-button"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >Ask About This Style</a>
+                    </div>
+                </article>
+
+                <article class="slider-slide">
+                    <img
+                        src="images/nigerian-waves.jpg"
+                        alt="Men's waves hairstyle"
+                    >
+                    <div class="slide-content">
+                        <h4>Waves</h4>
+                        <p>A stylish look with defined waves.</p>
+                        <a
+                            href="https://wa.me/2349015130293?text=Hello%20Wissy%20Haircut%2C%20I%20am%20interested%20in%20Waves"
+                            class="whatsapp-button"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >Ask About This Style</a>
+                    </div>
+                </article>
+
+            </div>
+
+            <button class="slider-arrow slider-prev" type="button"
+                aria-label="Previous Nigerian hairstyle">&#10094;</button>
+            <button class="slider-arrow slider-next" type="button"
+                aria-label="Next Nigerian hairstyle">&#10095;</button>
+
+            <div class="slider-dots" aria-label="Choose a hairstyle slide"></div>
+        </div>
+    </div>
+
+    <!-- International Hairstyles Slider -->
+    <div class="gallery-category">
+        <h3>International Hairstyles 🌍</h3>
+
+        <div class="haircut-slider" data-slider>
+            <div class="slider-track">
+
+                <article class="slider-slide">
+                    <img
+                        src="images/international-textured-crop.jpg"
+                        alt="Modern textured crop haircut"
+                    >
+                    <div class="slide-content">
+                        <h4>Textured Crop</h4>
+                        <p>A modern cut with textured styling.</p>
+                        <a
+                            href="https://wa.me/2349015130293?text=Hello%20Wissy%20Haircut%2C%20I%20am%20interested%20in%20the%20Textured%20Crop"
+                            class="whatsapp-button"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >Ask About This Style</a>
+                    </div>
+                </article>
+
+                <article class="slider-slide">
+                    <img
+                        src="images/international-pompadour.jpg"
+                        alt="Modern pompadour hairstyle"
+                    >
+                    <div class="slide-content">
+                        <h4>Pompadour</h4>
+                        <p>A classic style with extra volume.</p>
+                        <a
+                            href="https://wa.me/2349015130293?text=Hello%20Wissy%20Haircut%2C%20I%20am%20interested%20in%20the%20Pompadour"
+                            class="whatsapp-button"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >Ask About This Style</a>
+                    </div>
+                </article>
+
+                <article class="slider-slide">
+                    <img
+                        src="images/international-burst-fade.jpg"
+                        alt="Modern burst fade haircut"
+                    >
+                    <div class="slide-content">
+                        <h4>Burst Fade</h4>
+                        <p>A modern fade with a distinctive shape.</p>
+                        <a
+                            href="https://wa.me/2349015130293?text=Hello%20Wissy%20Haircut%2C%20I%20am%20interested%20in%20the%20Burst%20Fade"
+                            class="whatsapp-button"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >Ask About This Style</a>
+                    </div>
+                </article>
+
+            </div>
+
+            <button class="slider-arrow slider-prev" type="button"
+                aria-label="Previous international hairstyle">&#10094;</button>
+            <button class="slider-arrow slider-next" type="button"
+                aria-label="Next international hairstyle">&#10095;</button>
+
+            <div class="slider-dots" aria-label="Choose a hairstyle slide"></div>
+        </div>
+    </div>
+</section>
+        <section id="services">
+            <h2>Our Services</h2>
+
+            <div class="services">
+                <article>
+                    <h3>Classic Haircut</h3>
+                    <p>Clean and stylish haircut.</p>
+                    <p class="price">₦3,000</p>
+                </article>
+
+                <article>
+                    <h3>Fade Haircut</h3>
+                    <p>Sharp fades and a fresh finish.</p>
+                    <p class="price">₦4,000</p>
+                </article>
+
+                <article>
+                    <h3>Haircut & Beard</h3>
+                    <p>Haircut and beard grooming.</p>
+                    <p class="price">₦5,000</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="booking">
+            <h2>Book an Appointment</h2>
+
+            <form id="bookingForm">
+                <label for="customerName">Full Name</label>
+<input
+    type="text"
+    id="customerName"
+    name="customerName"
+    autocomplete="name"
+    required
+    placeholder="Enter your name"
+>
+
+<label for="phone">Phone Number</label>
+<input
+    type="tel"
+    id="phone"
+    name="phone"
+    autocomplete="tel"
+    required
+    placeholder="Enter your phone number"
+>
+
+                <label for="service">Choose a Service</label>
+                <select id="service" required>
+                    <option value="">Select a service</option>
+                    <option value="Classic Haircut">Classic Haircut</option>
+                    <option value="Fade Haircut">Fade Haircut</option>
+                    <option value="Haircut & Beard">Haircut & Beard</option>
+                </select>
+
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" required>
+
+                <button type="submit">Submit Booking Request</button>
+
+                <p id="formMessage"></p>
+            </form>
+        </section>
+    </main>
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact-section">
+    <div class="contact-content">
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>Ready for a Fresh Look?</h2>
+
+        <p>
+            Have a question about our services or want to ask
+            about a haircut? Contact Wissy Haircut through WhatsApp.
+        </p>
+
+        <a
+            href="https://wa.me/2349015130293"
+            class="button"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Chat With Us on WhatsApp
+        </a>
+    </div>
+</section>
+<a
+    href="https://wa.me/2349015130293"
+    class="whatsapp-button"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    Contact Us on WhatsApp
+</a>
+    <footer>
+        <p>&copy; 2026 Wissy Haircut. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
